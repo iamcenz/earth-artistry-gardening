@@ -295,10 +295,10 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/work/colombia_county.jpg);
+    background: url(../images/flower_cover.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-position: center;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -556,7 +556,13 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    /*font-family: Lobster, cursive;*/
+}
+
+@media screen and (max-width: 490px) {
+    .navbar-custom .navbar-brand {
+        font-size: 10px;
+    }
 }
 
 .navbar-custom .dropdown-menu {
@@ -693,7 +699,7 @@ textarea.form-control {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
 
 	h1 {
 		font-size: 34px;
@@ -705,6 +711,10 @@ textarea.form-control {
 		margin: 0 0 30px;
 		letter-spacing: 3px;
 	}
+
+    .navbar-brand {
+        font-size: 10px;
+    }
 
 }
 
